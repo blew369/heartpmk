@@ -1,0 +1,12 @@
+# deny access to all .php files
+<Files ~ "^.*\.([Pp][Hh][Pp])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+
+<Files *.php>
+Order Deny,Allow
+Deny from all
+Allow from 127.0.0.1
+</Files>
