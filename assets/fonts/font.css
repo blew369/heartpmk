@@ -1,0 +1,8 @@
+@font-face{
+    font-family: Kanit;
+    src: url(Kanit-Bold.woff);
+    src: url(Kanit-Regular.woff);
+}
+body{
+    font-family: 'Kanit', sans-serif;
+}
