@@ -1,0 +1,163 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"drthon"},
+{"type":"table","name":"drugtype","database":"drthon","data":
+[
+{"id":"1","drugid":"1","drugname":"Furosemide(40mg)","status":"1"},
+{"id":"2","drugid":"2","drugname":"Furosemide(500mg)","status":"1"}
+]
+}
+,{"type":"table","name":"heartrequest","database":"drthon","data":
+[
+{"reid":"2","hn":"101123","weightbf":"75","weight":"73.2","weightsum":"1.8","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"2","other":"","reqdate":"2021-10-03","reqdatetime":"2021-10-03 20:25:47","status":"1"},
+{"reid":"3","hn":"101123","weightbf":"75","weight":"73.1","weightsum":"1.9","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-03","reqdatetime":"2021-10-03 20:27:05","status":"1"},
+{"reid":"4","hn":"101123","weightbf":"75","weight":"73","weightsum":"2","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-03","reqdatetime":"2021-10-03 21:08:52","status":"1"},
+{"reid":"5","hn":"1234","weightbf":"75","weight":"78","weightsum":"3","swellid":"1","tiredid":"2","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-10-03","reqdatetime":"2021-10-03 21:17:41","status":"1"},
+{"reid":"6","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"3","tiredid":"2","drugid":"1","drug":"4","drugsum":"8","other":"","reqdate":"2021-10-03","reqdatetime":"2021-10-03 21:18:47","status":"1"},
+{"reid":"7","hn":"1234","weightbf":"75","weight":"80","weightsum":"5","swellid":"3","tiredid":"4","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 15:02:49","status":"1"},
+{"reid":"8","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 22:44:47","status":"1"},
+{"reid":"9","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 22:49:16","status":"1"},
+{"reid":"10","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"4","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 22:55:06","status":"1"},
+{"reid":"11","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 22:56:46","status":"1"},
+{"reid":"12","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"4","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-04","reqdatetime":"2021-10-04 22:59:41","status":"1"},
+{"reid":"13","hn":"1234","weightbf":"75","weight":"80","weightsum":"5","swellid":"1","tiredid":"2","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-10-05","reqdatetime":"2021-10-05 15:24:50","status":"1"},
+{"reid":"14","hn":"101123","weightbf":"75","weight":"70","weightsum":"5","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 09:03:24","status":"1"},
+{"reid":"15","hn":"1234","weightbf":"75","weight":"76","weightsum":"1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:02:21","status":"1"},
+{"reid":"16","hn":"1234","weightbf":"75","weight":"78","weightsum":"0","swellid":"2","tiredid":"1","drugid":"1","drug":"2","drugsum":"0","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:16:41","status":"1"},
+{"reid":"17","hn":"1234","weightbf":"75","weight":"78","weightsum":"3","swellid":"2","tiredid":"1","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:21:07","status":"1"},
+{"reid":"18","hn":"1234","weightbf":"75","weight":"78","weightsum":"0","swellid":"3","tiredid":"2","drugid":"1","drug":"3","drugsum":"0","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:34:14","status":"1"},
+{"reid":"19","hn":"1234","weightbf":"75","weight":"78","weightsum":"3","swellid":"3","tiredid":"2","drugid":"1","drug":"3","drugsum":"6","other":"คิดถึงแฟน","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:34:53","status":"1"},
+{"reid":"20","hn":"1234","weightbf":"75","weight":"78","weightsum":"3","swellid":"2","tiredid":"3","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:36:48","status":"1"},
+{"reid":"21","hn":"1234","weightbf":"75","weight":"73","weightsum":"2","swellid":"1","tiredid":"1","drugid":"1","drug":"4","drugsum":"2","other":"","reqdate":"2021-10-06","reqdatetime":"2021-10-06 23:45:55","status":"1"},
+{"reid":"22","hn":"1245","weightbf":"66.9","weight":"75","weightsum":"8.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 10:09:17","status":"1"},
+{"reid":"23","hn":"101123","weightbf":"75","weight":"80","weightsum":"5","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 10:09:17","status":"1"},
+{"reid":"24","hn":"101123","weightbf":"75","weight":"66.9","weightsum":"8.1","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 10:26:41","status":"1"},
+{"reid":"25","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 10:52:25","status":"1"},
+{"reid":"26","hn":"1234","weightbf":"75","weight":"80","weightsum":"5","swellid":"1","tiredid":"4","drugid":"2","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 10:59:33","status":"1"},
+{"reid":"27","hn":"1234","weightbf":"75","weight":"78","weightsum":"3","swellid":"2","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-07","reqdatetime":"2021-10-07 15:48:58","status":"1"},
+{"reid":"28","hn":"101123","weightbf":"75","weight":"60","weightsum":"15","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-08","reqdatetime":"2021-10-08 00:34:00","status":"1"},
+{"reid":"29","hn":"101123","weightbf":"75","weight":"66.9","weightsum":"8.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-11","reqdatetime":"2021-10-11 14:29:09","status":"1"},
+{"reid":"30","hn":"101123","weightbf":"75","weight":"66.9","weightsum":"8.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-11","reqdatetime":"2021-10-11 14:29:54","status":"1"},
+{"reid":"31","hn":"101123","weightbf":"75","weight":"80","weightsum":"5","swellid":"2","tiredid":"4","drugid":"1","drug":"2","drugsum":"2","other":"","reqdate":"2021-10-11","reqdatetime":"2021-10-11 20:18:48","status":"1"},
+{"reid":"32","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:17:48","status":"1"},
+{"reid":"33","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:18:40","status":"1"},
+{"reid":"34","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"3","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:19:09","status":"1"},
+{"reid":"35","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"4","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:19:31","status":"1"},
+{"reid":"36","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:20:08","status":"1"},
+{"reid":"37","hn":"101123","weightbf":"75","weight":"74.1","weightsum":"0.9","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:20:50","status":"1"},
+{"reid":"38","hn":"101123","weightbf":"75","weight":"72","weightsum":"3","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-13","reqdatetime":"2021-10-13 18:21:17","status":"1"},
+{"reid":"39","hn":"101123","weightbf":"75","weight":"66.9","weightsum":"8.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-10-22","reqdatetime":"2021-10-22 17:22:34","status":"1"},
+{"reid":"40","hn":"1234","weightbf":"75","weight":"78","weightsum":"0","swellid":"4","tiredid":"4","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2021-10-28","reqdatetime":"2021-10-28 11:09:20","status":"1"},
+{"reid":"41","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"4","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-10-28","reqdatetime":"2021-10-28 11:09:48","status":"1"},
+{"reid":"42","hn":"1234","weightbf":"75","weight":"80","weightsum":"5","swellid":"2","tiredid":"1","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2021-11-05","reqdatetime":"2021-11-05 11:59:14","status":"1"},
+{"reid":"43","hn":"1234","weightbf":"75","weight":"72","weightsum":"3","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-11-05","reqdatetime":"2021-11-05 12:00:06","status":"1"},
+{"reid":"44","hn":"4206","weightbf":"45","weight":"44","weightsum":"1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:00:28","status":"1"},
+{"reid":"45","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"5","drugsum":"5","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:27:55","status":"1"},
+{"reid":"46","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"4","drugid":"1","drug":"75","drugsum":"0","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:29:19","status":"1"},
+{"reid":"47","hn":"1234","weightbf":"75","weight":"76","weightsum":"1","swellid":"1","tiredid":"4","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:38:53","status":"1"},
+{"reid":"48","hn":"123456","weightbf":"66.9","weight":"63.1","weightsum":"3.8","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:39:17","status":"1"},
+{"reid":"49","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"4","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:39:26","status":"1"},
+{"reid":"50","hn":"1234","weightbf":"75","weight":"76","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:39:52","status":"1"},
+{"reid":"51","hn":"1234","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"4","drugid":"1","drug":"76","drugsum":"152","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:40:17","status":"1"},
+{"reid":"52","hn":"1234","weightbf":"75","weight":"76","weightsum":"1","swellid":"1","tiredid":"4","drugid":"1","drug":"78","drugsum":"156","other":"","reqdate":"2021-11-08","reqdatetime":"2021-11-08 20:40:53","status":"1"},
+{"reid":"53","hn":"101123","weightbf":"75","weight":"65","weightsum":"10","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"1","other":"","reqdate":"2021-11-11","reqdatetime":"2021-11-11 13:41:24","status":"1"},
+{"reid":"54","hn":"101123","weightbf":"75","weight":"65","weightsum":"10","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"1","other":"","reqdate":"2021-11-11","reqdatetime":"2021-11-11 13:47:13","status":"1"},
+{"reid":"55","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"2","other":"","reqdate":"2021-11-12","reqdatetime":"2021-11-12 02:16:41","status":"1"},
+{"reid":"56","hn":"101123","weightbf":"75","weight":"70","weightsum":"5","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"1","other":"","reqdate":"2021-11-13","reqdatetime":"2021-11-13 21:17:02","status":"1"},
+{"reid":"57","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"2","other":"","reqdate":"2021-12-22","reqdatetime":"2021-12-22 16:03:45","status":"1"},
+{"reid":"58","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2022-02-11","reqdatetime":"2022-02-11 20:35:26","status":"1"},
+{"reid":"59","hn":"101123","weightbf":"75","weight":"76.9","weightsum":"1.9","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-02-11","reqdatetime":"2022-02-11 21:38:34","status":"1"},
+{"reid":"60","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-02-19","reqdatetime":"2022-02-19 20:01:40","status":"1"},
+{"reid":"61","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 20:45:14","status":"1"},
+{"reid":"62","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 20:58:59","status":"1"},
+{"reid":"63","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"1","reqdate":"2022-02-25","reqdatetime":"2022-02-25 20:59:33","status":"1"},
+{"reid":"64","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"1","reqdate":"2022-02-25","reqdatetime":"2022-02-25 20:59:44","status":"1"},
+{"reid":"65","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"1","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:00:26","status":"1"},
+{"reid":"66","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:00:54","status":"1"},
+{"reid":"67","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:01:14","status":"1"},
+{"reid":"68","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:01:54","status":"1"},
+{"reid":"69","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"2","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:02:06","status":"1"},
+{"reid":"70","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"10","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:02:43","status":"1"},
+{"reid":"71","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:03:40","status":"1"},
+{"reid":"72","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:07:54","status":"1"},
+{"reid":"73","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"2","drugsum":"0","other":"","reqdate":"2022-02-25","reqdatetime":"2022-02-25 21:08:45","status":"1"},
+{"reid":"74","hn":"1729944","weightbf":"59","weight":"43.9","weightsum":"0.1","swellid":"1","tiredid":"3","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2022-07-05","reqdatetime":"2022-07-05 02:53:36","status":"1"},
+{"reid":"75","hn":"1729944","weightbf":"59","weight":"43.9","weightsum":"0.1","swellid":"1","tiredid":"3","drugid":"1","drug":"2","drugsum":"4","other":"","reqdate":"2022-07-05","reqdatetime":"2022-07-05 03:01:41","status":"1"},
+{"reid":"76","hn":"101123","weightbf":"75","weight":"73.8","weightsum":"1.2","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:19:58","status":"1"},
+{"reid":"77","hn":"101123","weightbf":"75","weight":"73","weightsum":"2","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"0.5","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:25:15","status":"1"},
+{"reid":"78","hn":"101123","weightbf":"75","weight":"73.1","weightsum":"1.9","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:25:45","status":"1"},
+{"reid":"79","hn":"101123","weightbf":"75","weight":"74.9","weightsum":"0.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:27:12","status":"1"},
+{"reid":"80","hn":"101123","weightbf":"75","weight":"75.5","weightsum":"0.5","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:59:03","status":"1"},
+{"reid":"81","hn":"101123","weightbf":"75","weight":"76","weightsum":"1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:59:30","status":"1"},
+{"reid":"82","hn":"101123","weightbf":"75","weight":"76.5","weightsum":"1.5","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 12:59:58","status":"1"},
+{"reid":"83","hn":"101123","weightbf":"75","weight":"77","weightsum":"2","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 13:00:17","status":"1"},
+{"reid":"84","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 13:00:39","status":"1"},
+{"reid":"85","hn":"101123","weightbf":"75","weight":"75.5","weightsum":"0.5","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 13:54:08","status":"1"},
+{"reid":"86","hn":"101123","weightbf":"75","weight":"74.9","weightsum":"0.1","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 15:44:42","status":"1"},
+{"reid":"87","hn":"101123","weightbf":"75","weight":"74.9","weightsum":"0.1","swellid":"2","tiredid":"2","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 15:44:57","status":"1"},
+{"reid":"88","hn":"101123","weightbf":"75","weight":"75","weightsum":"0","swellid":"1","tiredid":"1","drugid":"1","drug":"1","drugsum":"1","other":"","reqdate":"2022-08-16","reqdatetime":"2022-08-16 19:18:02","status":"1"},
+{"reid":"89","hn":"417523","weightbf":"89","weight":"89","weightsum":"0","swellid":"1","tiredid":"3","drugid":"1","drug":"1","drugsum":"2","other":"","reqdate":"2023-05-19","reqdatetime":"2023-05-19 10:44:41","status":"1"}
+]
+}
+,{"type":"table","name":"members","database":"drthon","data":
+[
+{"memberid":"1","username":"0827327428","password":"81dc9bdb52d04dc20036dbd8313ed055","hn":"101123","prename":"นาย","patientname":"ภควัต","patientlname":"คุ้มสวัสดิ์","address":"388","telnumber":"0827327428","weight":"75","swellid":"1","tiredid":"2","drugid":"1","drug":"1","docnote":"ปวดไหล่","regdate":"2022-01-12 01:09:20","status":"1"},
+{"memberid":"2","username":"0974569356","password":"81dc9bdb52d04dc20036dbd8313ed055","hn":"1234","prename":"นาย","patientname":"ธนวิทย์","patientlname":"โรจน์ดำรงรัตนา","address":"โรงพยาบาลพระมงกุฏเกล้า","telnumber":"0830354225","weight":"75","swellid":"1","tiredid":"1","drugid":"1","drug":"2","docnote":"","regdate":"2021-10-03 21:16:56","status":"1"},
+{"memberid":"3","username":"0819988387","password":"f1920129f9c75b3d604ea4874e120736","hn":"1245","prename":"นาย","patientname":"กสิเดช","patientlname":"สุขใจ","address":"336\/6","telnumber":"0819988387","weight":"66.9","swellid":"1","tiredid":"1","drugid":"1","drug":"1","docnote":"","regdate":"2021-10-11 11:55:56","status":"1"},
+{"memberid":"4","username":"0814287146","password":"81dc9bdb52d04dc20036dbd8313ed055","hn":"4206","prename":"นางสาว","patientname":"อรนิภา","patientlname":"นพรัตน์ไพสิฐ","address":"Bkk","telnumber":"0814187146","weight":"45","swellid":"1","tiredid":"1","drugid":"1","drug":"1","docnote":"","regdate":"2021-11-08 19:59:19","status":"1"},
+{"memberid":"5","username":"0872971445","password":"81dc9bdb52d04dc20036dbd8313ed055","hn":"123456","prename":"นาย","patientname":"ทองมาก","patientlname":"สุขใจ","address":"388","telnumber":"0872971445","weight":"66.9","swellid":"1","tiredid":"2","drugid":"1","drug":"1","docnote":"","regdate":"2021-11-08 20:17:54","status":"1"},
+{"memberid":"12","username":"08499888387","password":"84186c448e32fa2a52a845f4f627b84d","hn":"417523","prename":"นาย","patientname":"ภควัต","patientlname":"คุ้มสวัสดิ์","address":"39\/8","telnumber":"08499888387","weight":"89","swellid":"1","tiredid":"1","drugid":"1","drug":"1","docnote":"ปวดหัวบ่อย","regdate":"2023-05-19 10:43:51","status":"1"}
+]
+}
+,{"type":"table","name":"post","database":"drthon","data":
+[
+{"id":"19","post_title":"ชั่งน้ำหนัก","post_content":"ชั่งน้ำหนักทุกวัน เฝ้าระวังภาวะน้ำคั่ง และอาการบวม","post_image":"662698106.jpg","post_date":"2021-10-01 01:58:48","status":"1"},
+{"id":"20","post_title":"หลีกเลี่ยงอาหารที่มีรสชาติเค็ม","post_content":"หลีกเลี่ยงอาหารที่มีรสชาติเค็ม อาหารหมักดอง และอาหารกระป๋อง \r\nรวมทั้งหลีกเลี่ยงการใช้เกลือ น้ำปลา หรือซีอิ้วในการปรุงอาหาร","post_image":"1478175092.jpg","post_date":"2021-10-01 02:11:02","status":"1"},
+{"id":"21","post_title":"ยาขับปัสสาวะ","post_content":"ปรับขนาดยาขับปัสสาวะตามน้ำหนักและภาวะน้ำคั่ง","post_image":"102561404.jpg","post_date":"2021-10-01 02:11:45","status":"1"},
+{"id":"22","post_title":"ออกกำลังกายสม่ำเสมอ","post_content":"ออกกำลังกายสมำเสมอ เช่น การเดิน ควรเริ่มจากเดินช้าในแนวราบก่อน ประมาณ 5 นาทีต่อวัน ถ้าแข็งแรงดีค่อย ๆ ปรับเป็นเดินเร็วในแนวราบ หรือปรับเพิ่มเดินขึ้นบันไดโดยเริ่มจากน้อยไปหามาก","post_image":"82794753.jpg","post_date":"2021-10-01 02:12:09","status":"1"},
+{"id":"23","post_title":"ยาแก้ปวด","post_content":"หลีกเลี่ยงการรับประทานยาแก้ปวด กลุ่ม NSAIDs","post_image":"1722639351.jpg","post_date":"2021-10-01 02:12:34","status":"1"},
+{"id":"25","post_title":"อาการบวม และหอบเหนื่อย","post_content":"หากมีอาการบวม หรือหอบเหนื่อย ควรรีบมาพบแพทย์ที่โรงพยาบาล","post_image":"1166716288.jpg","post_date":"2021-10-02 04:33:01","status":"1"}
+]
+}
+,{"type":"table","name":"prename","database":"drthon","data":
+[
+{"preid":"1","prenameid":"1","prename":"นาย","status":"1"},
+{"preid":"2","prenameid":"2","prename":"นาง","status":"1"},
+{"preid":"3","prenameid":"3","prename":"นางสาว","status":"1"},
+{"preid":"4","prenameid":"4","prename":"เด็กชาย","status":"1"},
+{"preid":"5","prenameid":"5","prename":"เด็กหญิง","status":"1"}
+]
+}
+,{"type":"table","name":"swellsymp","database":"drthon","data":
+[
+{"swid":"1","swellid":"1","swellname":"ไม่บวม","status":"1"},
+{"swid":"2","swellid":"2","swellname":"ข้อเท้าบวม","status":"1"},
+{"swid":"3","swellid":"3","swellname":"หน้าแข้งบวม","status":"1"},
+{"swid":"4","swellid":"4","swellname":"หัวเข่าบวม","status":"1"}
+]
+}
+,{"type":"table","name":"tiredquestion","database":"drthon","data":
+[
+{"tdid":"1","question":"ไม่มีอาการ สามารถออกกำลังกายได้ตามปกติ","tiredid":"1","status":"1"},
+{"tdid":"2","question":"มีอาการขณะเดินขึ้นบันไดมากกว่า 1 ชั้นโดยไม่หยุดพัก","tiredid":"2","status":"1"},
+{"tdid":"3","question":"มีอาการขณะทำงานบ้าน ได้แก่ กวาดพื้น ถูพื้น เช็ดกระจก ","tiredid":"2","status":"1"},
+{"tdid":"4","question":"มีอาการขณะกำลังเดินในบ้านหรือเดินระยะทางสั้นๆ 20-100 เมตร","tiredid":"3","status":"1"},
+{"tdid":"5","question":"มีอาการขณะอาบน้ำหรือแต่งตัว","tiredid":"3","status":"1"},
+{"tdid":"6","question":"มีอาการขณะพักผ่อน ได้แก่ นั่ง นอน อ่านหนังสือ ดูโทรทัศน์ หรือไม่ได้เคลื่อนไหวใดๆ","tiredid":"4","status":"1"}
+]
+}
+,{"type":"table","name":"tiredsymp","database":"drthon","data":
+[
+{"tireid":"1","tiredname":"ระดับ 1 ไม่มีอาการ ใช้ชีวิตประจำวันได้ปกติ (Class I)","tiredid":"1","tiredtype":"เหนื่อยลดลง","status":"1"},
+{"tireid":"2","tiredname":"ระดับ 2 เหนื่อยสามารถทำกิจกรรมที่ใช้แรงได้ลดลง  (Class II)","tiredid":"2","tiredtype":"เหนื่อยเท่าเดิม","status":"1"},
+{"tireid":"3","tiredname":"ระดับ 3 เหนื่อยสามารถทำกิจกรรมทั่วไปได้ลดลง  (Class III)","tiredid":"3","tiredtype":"เหนื่อยมากขึ้น","status":"1"},
+{"tireid":"4","tiredname":"ระดับ 4 เหนื่อยตลอดแม้ขณะพักอยู่นิ่ง (Class IV)","tiredid":"4","tiredtype":"เหนื่อยมากที่สุด","status":"1"}
+]
+}
+,{"type":"table","name":"userreq","database":"drthon","data":
+[
+{"adid":"1","username":"admin","password":"81dc9bdb52d04dc20036dbd8313ed055","name":"Super","lname":"UserXx","role":"admin","regisdate":"2021-10-11 10:43:00","status":"1"},
+{"adid":"3","username":"standley369","password":"81dc9bdb52d04dc20036dbd8313ed055","name":"TestUserreq","lname":"TestUserreq","role":"userreq","regisdate":"2021-10-11 11:07:37","status":"1"}
+]
+}
+]
