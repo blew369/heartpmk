@@ -1,9 +1,9 @@
 <?php
 class DB_con{
     private $servername = "localhost";
-    private $username   = "heartpmk_01";
-    private $password   = "Iris@4569";
-    private $dbname = "heartpmk_01";
+    private $username   = "root";
+    private $password   = "";
+    private $dbname = "drthon";
     public $dbcon;
 
     public function __construct(){
